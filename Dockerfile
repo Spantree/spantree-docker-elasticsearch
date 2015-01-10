@@ -20,7 +20,7 @@ ADD config/elasticsearch.yml /elasticsearch/config/elasticsearch.yml
 WORKDIR /data
 
 # Install some plugins we like
-RUN /elasticsearch/bin/plugin -i lmenezes/elasticsearch-kopf/latest
+RUN /elasticsearch/bin/plugin -i lmenezes/elasticsearch-kopf/1.4.3
 
 RUN /elasticsearch/bin/plugin -i elasticsearch/marvel/latest
 
