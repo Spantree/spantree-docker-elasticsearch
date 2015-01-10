@@ -4,8 +4,6 @@ path:
   work: /data/work
 http:
   max_content_length: '256mb'
-bootstrap:
-  mlockall: true
 indices:
   fielddata:
     cache: '25%'
